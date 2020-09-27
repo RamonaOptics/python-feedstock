@@ -6,3 +6,7 @@ cxx_compiler:                  # [win]
   - vs2017                     # [win]
 vc:                            # [win]
   - 14.1                       # [win]
+channel_sources:
+  - ramonaoptics,conda-forge,defaults
+channel_targets:
+  - ramonaoptics main
